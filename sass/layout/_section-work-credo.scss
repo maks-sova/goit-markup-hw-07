@@ -1,0 +1,92 @@
+/*Пункты в работе*/
+.info_team {
+ 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+
+}
+
+.text_team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.work_team {
+    text-align: center;
+    margin-bottom: 50px;
+ 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.id_team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.skil_team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.style-paragraph{
+    width: 270px;
+    margin-right: 30px;
+}
+.paragraph{
+    display: flex;
+    list-style: none;
+}
+.style-paragraph:last-child{
+    margin-left: 0;
+}
+.icon::before {
+    content: "";
+    display: block;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+
+}
+
+.icon:nth-child(1)::before {
+    background-image: url(../images/antenna\ 1.svg);
+}
+
+.icon:nth-child(2)::before {
+    background-image: url(../images/clock\ 1.svg);
+}
+
+.icon:nth-child(3)::before {
+    background-image: url(../images/diagram\ 1.svg);
+}
+
+.icon:nth-child(4)::before {
+    background-image: url(../images/astronaut\ 1.svg);
+}

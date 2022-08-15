@@ -1,0 +1,182 @@
+/*Лого страници*/
+.info_main {
+    background: #FFFFFF;
+    font-family: 'Roboto', 'Raleway';
+
+}
+.webStudio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    outline: none;
+}
+.colorweb {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:black;
+}
+
+.studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    transition:color 250ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.current{
+    color:#2196F3;
+
+}
+.portfolio {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+    width: 77px;
+    height: 16px;
+    margin-bottom: 14px;
+    transition:color 250ms cubic-bezier(0.4,0,0.2,1);
+}
+.portfolio.current {
+    color: #2196F3;
+   
+}
+.labe::after{
+   content: "";
+   display: flex;
+    width: 100%;
+    height: 4px;
+    border: 1px solid #2196F3;;
+    border-radius: 2px;
+    background: #2196F3;
+}
+
+.contakts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+    width: 68px;
+    height: 16px;
+    transition:color 250ms cubic-bezier(0.4,0,0.2,1);
+
+    
+}
+
+.link_info {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #757575;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4,0,0.2,1);
+   
+}
+
+.stydi-link{
+    margin-right: 50px;
+    
+}
+.stydi-link:last-child{
+    margin-right: 0;
+}
+
+/*Шапка*/
+.lost:hover,
+.lost:focus{
+    color: #2196F3;
+    
+   
+}
+
+.header-solid{
+    border: 1px solid #EEEEEE;
+}
+.nav-style{
+    display: flex;
+}
+.style-studio{
+    display: flex;
+    list-style: none;
+    
+}
+.style-info{
+    display: flex;
+    margin-left: auto; 
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.activity{
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    outline: none;
+   
+}
+.link_info:hover,
+.link_info:focus{
+    fill: #2196F3;
+}
+.activitys{
+    display: flex;
+    margin-right: 30px;  
+    padding-top: 32px;
+    padding-bottom: 32px;
+    outline: none;
+}
+
+.activity:last-child{
+    margin-right: 0;
+}
+.dio{
+    text-decoration: none;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+/*кОНТАКТ пИСЬМО И Телефон*/
+
+.svg-link{
+    margin-right: 10px; 
+    fill: currentColor;
+}
+.svg-link:hover,
+.svg-link:focus{
+    fill: #2196F3;
+}
+.link_info:hover,
+.link_info:focus{
+    color:#2196F3;
+}
+
+.style-mailto{
+    margin-right: 30px;
+}
+   .style-mailto:last-child{
+    margin-right: 0;
+   }

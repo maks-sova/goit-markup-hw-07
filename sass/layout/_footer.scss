@@ -1,0 +1,211 @@
+/*Подвал*/
+.styly-ly{
+    margin-bottom: 10px;
+    margin-right: 70px;
+ }
+ .styly-ly:last-child {
+     margin-bottom: 0;
+ }
+ .webStudio_2 {
+     display: block;
+     margin-bottom: 20px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.2;
+      letter-spacing: 0.03em;
+      color: #2196F3;
+  }
+  
+  .style_studio {
+      
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.2;
+      letter-spacing: 0.03em;
+      color: white;
+      
+  }
+  
+  .link_infos {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.7;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      transition:color 250ms cubic-bezier(0.4,0,0.2,1);
+  
+  }
+  
+  .info_link {
+      background: #2F303A;
+      padding-top: 60px;
+      padding-bottom: 50px;
+      margin: 0 auto;
+      
+  }
+  .link_street{
+      font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height:1.7;
+          letter-spacing: 0.03em;
+          color: #FFFFFF;
+  }
+ /*Подвал дополнительное*/
+ .container-link{
+     display: flex;
+     text-align: baseline;
+ 
+ }
+ .a_studio{
+     list-style: none;
+     
+    
+ }
+ .a_studios{
+     margin-left: 70px;
+     list-style: none;
+ }
+ .link-list{
+     display: flex;
+ }
+ .lllls{
+     display: flex;
+     gap: 10px;
+      list-style: none;
+      
+  }
+  .tttts{
+      display: flex;
+      width: 44px;
+      height: 44px;
+      border-radius: 50px;
+      background: rgba(255, 255, 255, 0.1);
+      fill:#FFFFFF;
+      justify-content:center;
+      transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
+      outline: none;
+      
+  }
+  .yyyys{
+    display: flex;
+    width: 20px;
+  
+  }
+  .tttts:hover,
+  .tttts:focus{
+     background-color: #2196F3;
+     
+ }
+ 
+ .p-link{
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #FFFFFF;
+     margin-bottom: 20px;
+     justify-content: center; 
+     margin-top: 14px;
+ }
+ /* Підпишіться на розсилку*/
+ .modal-mailing-list{
+     display: flex;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+ 
+     color: #FFFFFF;
+     margin-top: 14px;
+ }
+ .modal-mailing-lists{
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     width: 358px;
+     height: 50px;
+     margin-bottom: 20px;
+     justify-content: center; 
+     margin-top: 20px;
+     border: 1px solid rgba(255, 255, 255, 0.3);
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+     border-radius: 4px;
+     background: #2F303A;
+     cursor: pointer;
+     padding: 15px 16px;
+     margin-right: 12px;
+     transition:  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     outline: none;
+ }
+ .modal-mailing-lists:focus{
+     border: 1px solid rgba(255, 255, 255, 0.3);
+ }
+ .modal-mailing-button{
+ 
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 1.87;
+ 
+     align-items: center;
+     text-align: center;
+     letter-spacing: 0.06em;
+ 
+     color: #FFFFFF;
+     padding: 10px 62px 10px 28px;
+     background-color: #2196F3;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 4px;
+     border: none;
+     cursor: pointer;
+     transform: background-color;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     outline: none;
+ }
+ .modal-mailing-button:hover,
+ .modal-mailing-button:focus{
+     background-color:#188CE8;
+ }
+ .svg-mailing{
+     position: absolute;
+     align-items: center;
+     justify-content: center;
+     top: 50%;
+     right: 28px;
+     transform: translate(0,-50%);
+    
+ }
+ .footer-links{
+ margin-right: 93px;
+ }
+ .modal-mailing-span{
+     position: relative;
+    
+ }
+ .modal-mailing-lists::placeholder{
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.25;
+     align-items: center;
+     letter-spacing: 0.03em;
+ 
+     color: rgba(255, 255, 255, 0.6);
+ }

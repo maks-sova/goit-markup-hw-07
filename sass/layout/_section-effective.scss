@@ -1,0 +1,28 @@
+/*Еффективное решение*/
+
+.style_round {
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: auto;
+    color: #FFFFFF;
+    width: 690px;
+}
+.style-section{
+    padding: 200px 0;
+    text-align: center;
+    background-color: #C4C4C4;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+    
+}
