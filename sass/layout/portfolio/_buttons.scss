@@ -17,9 +17,8 @@
     margin: auto;
     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
     outline: none;
-}
-.info_buttons:hover,
-.info_buttons:focus
+    &:hover,
+    &:focus
 {
         
         color: #FFFFFF;
@@ -28,14 +27,15 @@
         border-radius: 4px;
 }
 
+}
+
 .style-buttons{
     display: flex;  
     justify-content: center;
 }
 .buttons-skill{
     margin-right: 8px;
-    
-}
-.buttons-skill:last-child {
-    margin-right: 0;
+    &:last-child {
+        margin-right: 0;
+    }
 }

@@ -9,10 +9,11 @@ img{
 .style-img{
     position: relative;
     margin-right: 30px;
+    &:last-child{
+        margin-right: 0;
+    }
 }
-.style-img:last-child{
-    margin-right: 0;
-}
+
 .style-works{
     padding-top: 0;
     

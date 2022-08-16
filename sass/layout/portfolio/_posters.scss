@@ -76,11 +76,12 @@ font-family: 'Roboto';
     bottom: 0px;
     top: 0px;
     right: 0px;
+    .overlay:hover &{
+        transform: translateY(0);
+    }
 }
 
-.overlay:hover .work-p{
-    transform: translateY(0);
-}
+
 .studio-work{
     margin-top: 50px;
     display: flex;
@@ -89,22 +90,23 @@ font-family: 'Roboto';
 .team-ids {
     margin-right: 30px;
     margin-bottom: 30px;
-}
-.team-ids:hover,
-.team-ids:focus{
+    &:hover,
+    &:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+   
 }
-.team-ids:nth-child(3n+3){
+&:nth-child(3n+3){
     margin-right: 0;
 }
-.team-ids:nth-last-child(-n+3) {
+&:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
+}
+
+
 .poster-style{
    padding: 20px 24px 20px 24px;
    border: 1px solid #EEEEEE;
-    border-radius: 0px 0px 4px 4px;
-   
-    
+   border-radius: 0px 0px 4px 4px;
 }
 

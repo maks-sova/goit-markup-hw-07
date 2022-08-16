@@ -93,6 +93,11 @@
       justify-content:center;
       transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
       outline: none;
+      &:hover,
+      &:focus{
+         background-color: #2196F3;
+         
+     }
       
   }
   .yyyys{
@@ -100,11 +105,7 @@
     width: 20px;
   
   }
-  .tttts:hover,
-  .tttts:focus{
-     background-color: #2196F3;
-     
- }
+ 
  
  .p-link{
      font-family: 'Roboto';
@@ -151,10 +152,11 @@
      margin-right: 12px;
      transition:  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
      outline: none;
+     &:focus{
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
  }
- .modal-mailing-lists:focus{
-     border: 1px solid rgba(255, 255, 255, 0.3);
- }
+
  .modal-mailing-button{
  
      font-family: 'Roboto';
@@ -177,11 +179,12 @@
      transform: background-color;
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
      outline: none;
- }
- .modal-mailing-button:hover,
- .modal-mailing-button:focus{
+     &:hover,
+     &:focus{
      background-color:#188CE8;
  }
+ }
+
  .svg-mailing{
      position: absolute;
      align-items: center;

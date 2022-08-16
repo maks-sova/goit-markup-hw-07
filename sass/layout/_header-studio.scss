@@ -91,6 +91,10 @@
     cursor: pointer;
     align-items: center;
     transition: color 250ms cubic-bezier(0.4,0,0.2,1);
+    &:hover,
+    &:focus{
+   color: #2196F3;
+}
    
 }
 
@@ -138,10 +142,7 @@
     outline: none;
    
 }
-.link_info:hover,
-.link_info:focus{
-    fill: #2196F3;
-}
+
 .activitys{
     display: flex;
     margin-right: 30px;  
@@ -164,19 +165,16 @@
 .svg-link{
     margin-right: 10px; 
     fill: currentColor;
-}
-.svg-link:hover,
-.svg-link:focus{
+    &:hover,
+    &:focus{
     fill: #2196F3;
 }
-.link_info:hover,
-.link_info:focus{
-    color:#2196F3;
 }
 
 .style-mailto{
     margin-right: 30px;
+    &:last-child{
+        margin-right: 0;
+       }
 }
-   .style-mailto:last-child{
-    margin-right: 0;
-   }
+   
