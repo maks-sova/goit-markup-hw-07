@@ -1,14 +1,9 @@
 /*Еффективное решение*/
 
 .style_round {
-  
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.3;
+    @include name('Roboto', normal, 900, 44px , 1.3, 0.06em );
+   
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
     margin: auto;
     color: #FFFFFF;

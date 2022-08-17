@@ -5,30 +5,20 @@
 
 }
 .webStudio {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+    @include name('Raleway',normal ,700 ,26px ,1.2, 0.03em );
+   
     color: #2196F3;
     outline: none;
 }
 .colorweb {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+    @include name('Raleway',normal ,700 ,26px ,1.2, 0.03em );
+   
     color:black;
 }
 
 .studio {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include name(0, 0 ,500 ,14px ,1.14, 0.02em );
+    
     color: #212121;
     text-decoration: none;
     transition:color 250ms cubic-bezier(0.4,0,0.2,1);
@@ -39,11 +29,8 @@
 
 }
 .portfolio {
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include name(0, 0 ,500 ,14px ,1.14, 0.02em );
+  
     text-decoration: none;
     color: #212121;
     width: 77px;
@@ -66,10 +53,8 @@
 }
 
 .contakts {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include name(0, 0 ,500 ,14px ,1.14, 0.02em );
+    
     text-decoration: none;
     color: #212121;
     width: 68px;
@@ -80,11 +65,9 @@
 }
 
 .link_info {
+    @include name(0, 0 ,500 ,14px ,1.14, 0.02em );
     display: flex;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+   
     color: #757575;
     list-style: none;
     text-decoration: none;

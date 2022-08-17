@@ -12,45 +12,28 @@
 }
 
 .text_team {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @include name('Roboto', normal, 400, 14px , 1.7, 0.03em );
+    
     color: #757575;
 }
 
 .work_team {
     text-align: center;
     margin-bottom: 50px;
- 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+    @include name('Roboto', normal, 700, 36px , 1.2, 0.03em );
+    
     color: #212121;
 }
 
 .id_team {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+    @include name('Roboto', normal, 500, 16px , 1.2, 0.03em );
+    
     color: #212121;
 }
 
 .skil_team {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+    @include name('Roboto', normal, 400, 16px , 1.2, 0.03em );
+   
     color: #757575;
 }
 .style-paragraph{

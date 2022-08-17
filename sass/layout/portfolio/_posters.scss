@@ -1,43 +1,32 @@
+@mixin portfolio ($ff, $fs, $fw, $fz,$lh, $ls) {
+    font-family: $ff;
+    font-style: $fs;
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    letter-spacing: $ls;
+}
 /*Портфолио Стулий*/
 .studio_style {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include portfolio('Roboto',normal ,500 ,14px ,1.14, 0.02em );
+   
     text-decoration: none;
     color: #212121;
 }
 .portfolio_style{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include portfolio('Roboto',normal ,500 ,14px ,1.14, 0.02em );
+   
     color: #2196F3;
     text-decoration: none;
 }
 
 .style_work{
-    
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    @include portfolio('Roboto',normal ,700 ,18px ,2, 0.06em );
+
     color: #212121;
 }
 .style_skill{
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.8;
-
-    letter-spacing: 0.03em;
+    @include portfolio('Roboto',normal ,400 ,16px ,1.8, 0.03em );
 
     color: #757575;
 }
@@ -62,12 +51,8 @@ font-family: 'Roboto';
     position: absolute;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4,0,0.2,1);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.03em;
+    @include portfolio('Roboto',normal ,400 ,18px ,28px, 0.03em );
+  
 
     width: 100%;
     height: 100%;

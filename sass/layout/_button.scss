@@ -1,12 +1,11 @@
+
+
 /*Кнопка*/
 .info_button{
     margin-top: 30px;
-    letter-spacing: 0.06em;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
+    @include name('Roboto',normal ,700 ,16px ,1.9, 0.06em );
+   
+   
     width: 200px;
     height: 50px;
     background: #2196F3;
