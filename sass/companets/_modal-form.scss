@@ -7,14 +7,14 @@
     letter-spacing: $ls;
 }
 /*Стили модального окна */
-.modal-p{
+.modal__p{
     display: flex;
     justify-content: center;
     margin-bottom: 12px;
     @include name('Roboto',normal ,700 ,20px ,1.15, 0.03em );
     color: #212121;
 }
-.modal-form{
+.modal__form{
     display: flex;
     flex-direction: column;
 }
@@ -25,11 +25,11 @@
 .modal-labels{
     margin-bottom: 20px;
 }
-.modal-spans{
+.modal-label__spans{
     display: block;
     position: relative;
 }
-.modal-span{
+.modal-label__span{
     display: block;
     @include name('Roboto',normal ,400 ,12px ,1.16, 0.01em );
   
@@ -38,7 +38,7 @@
 }
 
 
-.modal-input{
+.modal-label__input{
     display: block;
     width: 100%;
     height: 40px;
@@ -51,7 +51,7 @@
     &:focus{
         outline: none;
         border-color:#2196F3;
-        &:focus + .modal-svg{
+        &:focus + .modal-label__svg{
             fill: #188CE8;
         }
     }
@@ -59,7 +59,7 @@
 }
 
 
-.modal-textarea{
+.modal-label__textarea{
     width: 100%;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -75,13 +75,13 @@
     }
 }
 
-.modal-textarea::placeholder{
+.modal-label__textarea::placeholder{
     display: flex;
     @include name('Roboto',normal ,400 ,12px ,1.16, 0.01em );
     
     color: rgba(117, 117, 117, 0.5);
  }
- .modal-svg{
+ .modal-label__svg{
     position: absolute;
     top: 50%;
     left: 12px;
@@ -93,7 +93,7 @@
  }
  
 
- .modal-button-link{
+ .modal-label__button-link{
     display: flex;
     margin: auto;
     text-align: center;
@@ -108,6 +108,10 @@
     border-radius: 4px;
     border: none;   
     margin-top: 30px;
+    outline: none;
+    &:focus{
+        background-color: #188CE8;
+    }
 }
 
 

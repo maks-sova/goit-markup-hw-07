@@ -1,6 +1,6 @@
 /*СТИЛИ ВТОРОЙ СТРАНИЦИ*/
 /*Кнопки*/
-.info_buttons{
+.buttons-skill__info_buttons{
     padding: 6px 22px 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -29,12 +29,13 @@
 
 }
 
-.style-buttons{
+.container__style-buttons{
     display: flex;  
     justify-content: center;
 }
-.buttons-skill{
+.container__buttons-skill{
     margin-right: 8px;
+    list-style: none;
     &:last-child {
         margin-right: 0;
     }

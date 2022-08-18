@@ -20,22 +20,20 @@
     text-decoration: none;
 }
 
-.style_work{
+.poster__style-work{
     @include portfolio('Roboto',normal ,700 ,18px ,2, 0.06em );
 
     color: #212121;
 }
-.style_skill{
+.poster__style-skill{
     @include portfolio('Roboto',normal ,400 ,16px ,1.8, 0.03em );
 
     color: #757575;
 }
 .poster-styles{
-   
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    
     
 }
 
@@ -43,7 +41,7 @@
     position: relative;
     overflow: hidden;
 }
-.work-p{
+.overlay__work-p{
     display: flex;
     justify-content:center;
     align-items: center;
@@ -67,18 +65,19 @@
 }
 
 
-.studio-work{
+.container__studio-work{
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
 }
-.team-ids {
+.container__team-ids{
     margin-right: 30px;
     margin-bottom: 30px;
+    list-style: none;
     &:hover,
     &:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-   
+    border-radius: 0px 0px 4px 4px;
 }
 &:nth-child(3n+3){
     margin-right: 0;
@@ -89,9 +88,10 @@
 }
 
 
-.poster-style{
+.poster{
    padding: 20px 24px 20px 24px;
    border: 1px solid #EEEEEE;
    border-radius: 0px 0px 4px 4px;
+  
 }
 
