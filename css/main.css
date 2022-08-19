@@ -10,7 +10,6 @@ ul {
   padding-left: 0;
 }
 
-
 * **::before,
 *::after {
   box-sizing: border-box;
@@ -477,7 +476,7 @@ ul {
   width: 690px;
 }
 
-.style-section {
+.style__section {
   padding: 200px 0;
   text-align: center;
   background-color: #C4C4C4;
@@ -490,7 +489,7 @@ ul {
 }
 
 /*Кнопка*/
-.info_button {
+.style-button__info_button {
   margin-top: 30px;
   font-family: "Roboto";
   font-style: normal;
@@ -511,11 +510,11 @@ ul {
   outline: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.info_button:hover, .info_button:focus {
+.style-button__info_button:hover, .style-button__info_button:focus {
   background: #188CE8;
 }
 
-.style-button {
+.style__button {
   display: block;
   margin-top: 30px;
 }
@@ -765,16 +764,17 @@ img {
 }
 
 /*Подвал*/
-.styly-ly {
+.container-web__styly-ly {
   margin-bottom: 10px;
   margin-right: 70px;
+  list-style: none;
 }
 
 .styly-ly:last-child {
   margin-bottom: 0;
 }
 
-.webStudio_2 {
+.container-web__webStudio_2 {
   display: block;
   margin-bottom: 20px;
   font-family: "Raleway";
@@ -786,7 +786,15 @@ img {
   color: #2196F3;
 }
 
-.style_studio {
+.container-web {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-web__style-studio {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -796,7 +804,7 @@ img {
   color: white;
 }
 
-.link_infos {
+.container-web__link_infos {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -808,7 +816,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.info_link {
+.info__footer {
   background: #2F303A;
   padding-top: 60px;
   padding-bottom: 50px;
@@ -826,7 +834,7 @@ img {
 }
 
 /*Подвал дополнительное*/
-.container-link {
+.container__footer {
   display: flex;
   text-align: baseline;
 }
@@ -844,13 +852,13 @@ img {
   display: flex;
 }
 
-.lllls {
+.footer-links__lllls {
   display: flex;
   gap: 10px;
   list-style: none;
 }
 
-.tttts {
+.footer-links__tttts {
   display: flex;
   width: 44px;
   height: 44px;
@@ -861,11 +869,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
-.tttts:hover, .tttts:focus {
+.footer-links__tttts:hover, .footer-links__tttts:focus {
   background-color: #2196F3;
 }
 
-.yyyys {
+.footer-links__yyyys {
   display: flex;
   width: 20px;
 }
@@ -885,7 +893,7 @@ img {
 }
 
 /* Підпишіться на розсилку*/
-.modal-mailing-list {
+.modal__mailing-list {
   display: flex;
   font-family: "Roboto";
   font-style: normal;
@@ -898,7 +906,7 @@ img {
   margin-top: 14px;
 }
 
-.modal-mailing-lists {
+.modal__mailing-lists {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -917,7 +925,7 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
-.modal-mailing-lists:focus {
+.modal__mailing-lists:focus {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -954,11 +962,11 @@ img {
   transform: translate(0, -50%);
 }
 
-.footer-links {
+.footer__links {
   margin-right: 93px;
 }
 
-.modal-mailing-span {
+.modal__mailing-span {
   position: relative;
 }
 

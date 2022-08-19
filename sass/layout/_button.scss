@@ -1,11 +1,9 @@
 
 
 /*Кнопка*/
-.info_button{
+.style-button__info_button{
     margin-top: 30px;
     @include name('Roboto',normal ,700 ,16px ,1.9, 0.06em );
-   
-   
     width: 200px;
     height: 50px;
     background: #2196F3;
@@ -23,8 +21,7 @@
     background:#188CE8;
 }
 }
-
-.style-button{
+.style__button{
     display: block;
     margin-top: 30px;
 }

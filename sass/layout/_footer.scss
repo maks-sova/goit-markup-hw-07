@@ -1,13 +1,14 @@
 
 /*Подвал*/
-.styly-ly{
+.container-web__styly-ly{
     margin-bottom: 10px;
     margin-right: 70px;
+    list-style: none;
  }
  .styly-ly:last-child {
      margin-bottom: 0;
  }
- .webStudio_2 {
+ .container-web__webStudio_2{
      display: block;
      margin-bottom: 20px;
      @include name('Raleway',normal ,700 ,26px ,1.2, 0.03em );
@@ -15,8 +16,15 @@
 
       color: #2196F3;
   }
-  
-  .style_studio {
+  .container-web{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+ 
+  .container-web__style-studio {
     @include name('Raleway',normal ,700 ,26px ,1.2, 0.03em );
      
     
@@ -24,7 +32,7 @@
       
   }
   
-  .link_infos {
+  .container-web__link_infos {
     @include name('Roboto',normal ,400 ,14px ,1.7, 0.03em );
     
       color: rgba(255, 255, 255, 0.6);
@@ -33,7 +41,7 @@
   
   }
   
-  .info_link {
+  .info__footer {
       background: #2F303A;
       padding-top: 60px;
       padding-bottom: 50px;
@@ -46,7 +54,7 @@
           color: #FFFFFF;
   }
  /*Подвал дополнительное*/
- .container-link{
+ .container__footer{
      display: flex;
     text-align: baseline;
  
@@ -63,13 +71,13 @@
  .link-list{
      display: flex;
  }
- .lllls{
+ .footer-links__lllls{
      display: flex;
      gap: 10px;
       list-style: none;
       
   }
-  .tttts{
+  .footer-links__tttts{
       display: flex;
       width: 44px;
       height: 44px;
@@ -86,7 +94,7 @@
      }
       
   }
-  .yyyys{
+  .footer-links__yyyys{
     display: flex;
     width: 20px;
   
@@ -104,7 +112,7 @@
      margin-top: 14px;
  }
  /* Підпишіться на розсилку*/
- .modal-mailing-list{
+ .modal__mailing-list{
      display: flex;
      @include name('Roboto',normal ,700 ,14px ,1.14, 0.03em );
    
@@ -113,7 +121,7 @@
      color: #FFFFFF;
      margin-top: 14px;
  }
- .modal-mailing-lists{
+ .modal__mailing-lists{
      font-family: 'Roboto';
      font-style: normal;
      font-weight: 700;
@@ -169,10 +177,12 @@
      transform: translate(0,-50%);
     
  }
- .footer-links{
+ .footer__links{
  margin-right: 93px;
+ 
  }
- .modal-mailing-span{
+
+ .modal__mailing-span{
      position: relative;
     
  }
